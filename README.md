@@ -18,7 +18,7 @@ This MSc thesis project is comprehensively investigates the proteomic profile of
 
 ## Project Overview
 
-In this project, we gained a comprehensive understanding of Four cancer cell lines based on their proteome profiles at the level of single-cell. By integrating various analytics approaches, we identified Gene Ontology (GO) terms, the pathways associated with each cancer type, hub proteins, and clustering subpopulations.
+In this project, we gained a comprehensive understanding of Four cancer cell lines based on their proteome profiles at the level of single-cell. By integrating various analytics approaches, we identified Gene Ontology (GO) terms, the pathways associated with each cancer type, hub proteins, and clustering subpopulations. The complete project code can be found [here](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/a4f868236fa7dba4865418d35b2f7c74cca82153/SCP_ProjectAllCode.R).
 
 ## Analysis Workflow
 
