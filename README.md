@@ -46,11 +46,11 @@ In this [file](https://github.com/IbrahimElzahaby/MSc_Thesis/tree/58deca008814c9
 
 ## Principal Component Analysis (PCA)
 
-[PCA](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/main/Dimentionality_reduction/PCA_ALLCELLTYPES.R) is applied to reduce the dimensionality of the data and visualize the variation between different cell populations within each cancer type. This technique helps identify clusters and patterns in the proteomic data.
+[Here](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/main/Dimentionality_reduction/PCA_ALLCELLTYPES.R) we applied PCA to reduce the dimensionality of the data and visualize the variation between different cell populations within each cancer type. This technique helps identify clusters and patterns in the proteomic data.
 
 ## Uniform Manifold Approximation and Projection (UMAP)
 
-[UMAP](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/main/Dimentionality_reduction/UMAP_ALLCELLTYPES.R) is a dimensionality reduction technique that preserves the local structure of the data. It is used to visualize and identify distinct cell populations within each cancer cell line based on their proteomic profiles.
+UMAP is a dimensionality reduction technique that preserves the local structure of the data. It is used to visualize and identify distinct cell populations within each cancer cell line based on their proteomic profiles. you can find the code in this [R file](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/main/Dimentionality_reduction/UMAP_ALLCELLTYPES.R)
 
 ## License
 
@@ -58,7 +58,7 @@ This project is released under the MIT License.
 
 ## Acknowledgments
 
-I would like to acknowledge the [Slavov laboratory](https://slavovlab.net) where the data was obtained for this project. This project was conducted as part of the master's thesis at [Systems and Personalized Medicine Division - Laboratory of Systems and Synthetic Biology](https://www.wur.nl/en/Research-Results/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Systems-and-Synthetic-Biology.htm) at Wageningen University and Research. I extend my gratitude to my supervisors, [Dr. Cristina Furlan](https://www.wur.nl/en/persons/cristina-dr.-c-cristina-furlan.htm) and [Dr. Edoardo Saccenti](https://www.wur.nl/en/persons/edoardo-dr.-e-edoardo-saccenti.htm), for their guidance and support throughout the process of completing this thesis project.
+I would like to acknowledge the [Slavov laboratory](https://slavovlab.net) where the data was obtained for this project. This project was conducted as part of the master's thesis at [Systems and Personalized Medicine Division - Laboratory of Systems and Synthetic Biology](https://www.wur.nl/en/Research-Results/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Systems-and-Synthetic-Biology.htm) at Wageningen University and Research. I extend my gratitude to my supervisors, [Dr. Cristina Furlan](https://www.wur.nl/en/persons/cristina-dr.-c-cristina-furlan.htm) and [Dr. Edoardo Saccenti](https://www.wur.nl/en/persons/edoardo-dr.-e-edoardo-saccenti.htm) for their guidance and support throughout the process of completing this thesis project.
 
 
 
