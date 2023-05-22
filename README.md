@@ -50,7 +50,7 @@ In this [file](https://github.com/IbrahimElzahaby/MSc_Thesis/tree/58deca008814c9
 
 ## Uniform Manifold Approximation and Projection (UMAP)
 
-UMAP is a dimensionality reduction technique that preserves the local structure of the data. It is used to visualize and identify distinct cell populations within each cancer cell line based on their proteomic profiles. you can find the code in this [R file](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/main/Dimentionality_reduction/UMAP_ALLCELLTYPES.R)
+UMAP is a dimensionality reduction technique that preserves the local structure of the data. It is used to visualize and identify distinct cell populations within each cancer cell line based on their proteomic profiles. you can find the code in this [R file](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/main/Dimentionality_reduction/UMAP_ALLCELLTYPES.R).
 
 ## License
 
