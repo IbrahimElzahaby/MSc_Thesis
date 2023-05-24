@@ -24,6 +24,8 @@ helaoverlap <- intersect(helalist4,helalist5)
 write.table(helaoverlap, file = "Hela_intersected.txt", sep = "",
             quote = F, col.names = F, row.names = F)
 
+###############################################################
+
 # Read PDAC proteins from Excel files
 PDAC_Set1 <-read_excel("PDAC2.xlsx")
 PDAC_list1 <- PDAC_Set1$proteins
@@ -44,6 +46,8 @@ PDACoverlap <- intersect(PDAC_list2,PDAC_list3)
 # Write PDAC overlapped protein names to a text file
 write.table(PDACoverlap, file = "PDAC_intersected.txt", sep = "",
             quote = F, col.names = F, row.names = F)
+
+###############################################################
 
 # Read Monocytes (U937) proteins from Excel files
 U1_cells <-read_excel("U937_1.xlsx")
@@ -76,6 +80,8 @@ monooverlap <- intersect(monocytesoverlap, intersect(U937_list5,U937_list6))
 write.table(monooverlap, file = "U937_intersected.txt", sep = "",
             quote = F, col.names = F, row.names = F)
 
+###############################################################
+
 # Read Melanoma proteins from Excel files
 Melanoma_Set2 <- read_excel("melanoma3.xlsx")
 melanoma_list2 <- Melanoma_Set2$proteins
@@ -96,6 +102,8 @@ melanomaoverlap <- intersect(melanoma_list3,melanoma_list1)
 # Write Melanoma overlapped protein names to a text file
 write.table(melanomaoverlap, file = "melanoma_intersected.txt", sep = "",
             quote = F, col.names = F, row.names = F)
+
+###############################################################
 
 # Save Venn diagrams to png file
 res <- 300
