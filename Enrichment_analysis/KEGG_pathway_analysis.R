@@ -126,7 +126,7 @@ mono_kegg_cnet <- cnetplot(mokcenter,  foldChange=monocytes_kegg,
 
 ################################################################################
 
-# Draw the dot KEGG diagrams
+# Save dotplots KEGG pathway analysis to png file
 res <- 300
 w <- 16
 h <- 12
@@ -139,7 +139,7 @@ dev.off()
 
 #####
 
-# Draw the E-Map KEGG diagrams
+# Save E-Map plots KEGG pathway analysis to png file
 res <- 300
 w <- 16
 h <- 12
@@ -150,7 +150,7 @@ dev.off()
 
 #####
 
-# Draw the Cnet KEGG diagrams
+# Save C-net plots of KEGG pathway analysis to png file
 res <- 250
 w <- 20
 h <- 15
