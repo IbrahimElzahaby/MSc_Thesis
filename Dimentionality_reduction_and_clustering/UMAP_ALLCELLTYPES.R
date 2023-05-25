@@ -173,7 +173,7 @@ h4_clust_abun4 <- hela4[c(h4cluster_4$cell), ]
 h4_clust_abun4 <- t(h4_clust_abun4)
 h4_clust_abun4 <- as.data.frame(h4_clust_abun4)
 h4_clust_abun4 <- cbind(colnames(hela4), h4_clust_abun4)
-hela4_cluster4 <- write_csv(h4-clust_abun4[-1,], 
+hela4_cluster4 <- write_csv(h4_clust_abun4[-1,], 
                             file = "hela4_cluster4.csv", 
                             col_names = F)
 
