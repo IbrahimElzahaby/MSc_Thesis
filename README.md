@@ -18,7 +18,7 @@ This MSc thesis project is comprehensively investigates the proteomic profile of
 
 ## Project Overview
 
-In this project, we gained a comprehensive understanding of Four cancer cell lines based on their proteome profiles at the level of single-cell. By integrating various analytics approaches, we identified Gene Ontology (GO) terms, the pathways associated with each cancer type, hub proteins, and clustering subpopulations. The complete project code can be found [here](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/a4f868236fa7dba4865418d35b2f7c74cca82153/SCP_ProjectAllCode.R).
+In this project, we gained a comprehensive understanding of Four cancer cell lines based on their proteome profiles at the level of single-cell. By integrating various analytics approaches, we identified Gene Ontology (GO) terms, the pathways associated with each cancer type, hub proteins, and clustering subpopulations. The complete project code can be found [here](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/627f276efa9c49d1356ecb690fa26d801a6e8607/SCP_project_code.Rmd).
 
 ## Analysis Workflow
 
@@ -42,15 +42,15 @@ GSEA is performed to identify the enriched gene sets and biological pathways ass
 
 ## Cell Clustering
 
-In this [file](https://github.com/IbrahimElzahaby/MSc_Thesis/tree/58deca008814c9b84af54945a028f0797cf28bcb/Dimentionality_reduction), Cell clustering techniques are applied to the proteomic data to identify distinct cell populations within each cancer cell line. Two commonly used methods are utilized:
+In this [file](https://github.com/IbrahimElzahaby/MSc_Thesis/tree/627f276efa9c49d1356ecb690fa26d801a6e8607/Dimentionality_reduction_and_clustering), Cell clustering techniques are applied to the proteomic data to identify distinct cell populations within each cancer cell line. Two commonly used methods are utilized:
 
 ## Principal Component Analysis (PCA)
 
-[Here](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/main/Dimentionality_reduction/PCA_ALLCELLTYPES.R) we applied PCA to reduce the dimensionality of the data and visualize the variation between different cell populations within each cancer type. This technique helps identify clusters and patterns in the proteomic data.
+[Here](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/627f276efa9c49d1356ecb690fa26d801a6e8607/Dimentionality_reduction_and_clustering/PCA_ALLCELLTYPES.R) we applied PCA to reduce the dimensionality of the data and visualize the variation between different cell populations within each cancer type. This technique helps identify clusters and patterns in the proteomic data.
 
 ## Uniform Manifold Approximation and Projection (UMAP)
 
-UMAP is a dimensionality reduction technique that preserves the local structure of the data. It is used to visualize and identify distinct cell populations within each cancer cell line based on their proteomic profiles. you can find the code in this [R file](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/main/Dimentionality_reduction/UMAP_ALLCELLTYPES.R).
+UMAP is a dimensionality reduction technique that preserves the local structure of the data. It is used to visualize and identify distinct cell populations within each cancer cell line based on their proteomic profiles. you can find the code in this [R file](https://github.com/IbrahimElzahaby/MSc_Thesis/blob/627f276efa9c49d1356ecb690fa26d801a6e8607/Dimentionality_reduction_and_clustering/UMAP_ALLCELLTYPES.R).
 
 ## License
 
