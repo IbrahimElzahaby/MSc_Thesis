@@ -26,11 +26,11 @@ The analysis workflow consists of the following pipeline:
 
 ## Create Venn diagram
 
-A venn diagram is created to visualize the overlap of the identified proteins in four cancer cell-lines using [SCoPE](https://scope2.slavovlab.net) approaches. This diagram provides the intersected proteins that will be used for further analysis across different cancer types. You can check the code and data files [here](https://github.com/IbrahimElzahaby/MSc_Thesis/tree/58deca008814c9b84af54945a028f0797cf28bcb/Venn_Diagram).
+A venn diagram is created to visualize the overlap of the identified proteins in four cancer cell-lines using [SCoPE](https://scope2.slavovlab.net) approaches. This diagram provides the intersected proteins that will be used for further analysis across different cancer types. You can check the code and data files [here](https://github.com/IbrahimElzahaby/MSc_Thesis/tree/10813a34211f4abd71f56c4b6c443a0443e964fc/Venn_Diagram).
 
 ## Gene Set Enrichment Analysis (GSEA)
 
-GSEA is performed to identify the enriched gene sets and biological pathways associated with each cancer cell line. The enrichment analysis helped uncover the biological processes and pathways that plays a vital role in each cancer type. More details can be found in [Enrichment_analysis](https://github.com/IbrahimElzahaby/MSc_Thesis/tree/58deca008814c9b84af54945a028f0797cf28bcb/Enrichment_analysis) file.
+GSEA is performed to identify the enriched gene sets and biological pathways associated with each cancer cell line. The enrichment analysis helped uncover the biological processes and pathways that plays a vital role in each cancer type. More details can be found in [Enrichment_analysis](https://github.com/IbrahimElzahaby/MSc_Thesis/tree/10813a34211f4abd71f56c4b6c443a0443e964fc/Enrichment_analysis) file.
 
 ## KEGG pathway analysis
 
